@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+* a {
+    text-decoration: none;
+    color: #1c76d1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #d6d6d6;
+    transition: 0.4s;
+}
+
+header a:hover {
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    grid-gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #d6d6d6;
+    background-color: #333333ea;
+    padding: 0.8rem 0rem;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 100%;
+
+    backdrop-filter: blur(6px);
+}
+
+.subheader {
+    display: grid;
+    justify-content: center;
+    color: #68686a;
+    background-color: #f5f5f7;
+    padding: 1rem 0rem;
+    font-size: 14px;
+}
+
+/* **************SECTION 1*************** */
+
+main .i13pro {
+    background-color: #fbfbfd;
+    width: minmax(600px, 100%);
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+main .i13pro h1{
+    text-align: center;
+    font-size: 50px;
+    color: #1d1d1f;
+}
+
+main .i13pro h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+main .links {
+    display: grid;
+    grid-template-columns: 130px 110px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+/* **************SECTION 2*************** */
+
+main .i13 {
+    background-color: #34283c;
+    width: minmax(600px, 100%);
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+main .i13 h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+main .i13 h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #e1acd2;
+    text-align: center;
+}
+
+/* **************SECTION 3*************** */
+
+main .macbookpro {
+    background-color: #fbfbfd;
+    width: minmax(600px, 100%);
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+main .macbookpro h1{
+    text-align: center;
+    font-size: 50px;
+    color: #1d1d1f;
+}
+
+main .macbookpro h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* **************SECTION 4*************** 
+**************DOUBLE MENU ONE*********** */
+main .double-menu-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+main .homepod {
+    background-color: #fbfbfd;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    justify-content: left;
+}
+
+main .homepod h1{
+    text-align: center;
+    font-size: 40px;
+    color: #1d1d1f;
+}
+
+/* ************AIRPODS*************** */
+main .airpods {
+    background-color: #fbfbfd;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    justify-content: right;
+}
+
+main .airpods h1{
+    text-align: center;
+    font-size: 40px;
+    color: #1d1d1f;
+}
+
+main .airpods h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* **************SECTION 5*************** 
+**************DOUBLE MENU TWO*********** */
+main .double-menu-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+main .watch {
+    background-color: #f5f5f7;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    justify-content: left;
+}
+
+main .watch h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1d1d1f;
+}
+
+main .watch h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* ****************ARCADE************** */
+main .arcade {
+    background-color: #fbfbfd;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+main .arcade h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1d1d1f;
+}
+
+main .arcade h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* **************SECTION 6*************** 
+**************DOUBLE MENU THREE*********** */
+.double-menu-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+main .card {
+    background-color: #fbfbfd;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-bottom: 0;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+main .card h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1d1d1f;
+}
+
+main .card h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* **************TV+************** */
+main .tv {
+    background-color: #ff8d2a;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 0.7rem;
+    padding: 2rem 0rem;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+main .tv h1{
+    text-align: center;
+    font-size: 40px;
+    color: #1d1d1f;
+}
+
+main .tv h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+main .tv a{
+    color: #1d1d1f;
+    text-align: center;
+}
+
+/* *******************FOOTER******************* */
+footer{
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    background-color: #f5f5f7;
+    justify-content: center;
+    font-size: 12px;
+    color: #8a8a8e;
+    letter-spacing: 1px;
+    grid-gap: 3rem;
+    padding: 1rem 0;
+}
+
+footer .info {
+    display: grid;
+    grid-gap: 0.6rem;
+}
+
+footer p{
+    max-width: 150ch;
+}
+
+footer a{
+    color: #6e6e70;
+}
+
+/* *******LISTS******** */
+footer .lists {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    line-height: 25px;
+    list-style-type: none;
+    grid-gap: 1rem;
+}
+
+footer .clmn2 , .clmn5 {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1rem;
+}
+
+footer .clmn4 {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1rem;
+}
+
+footer .last {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+footer .copyright {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
